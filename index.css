@@ -1,0 +1,21 @@
+h1 {
+    border: 1px solid black;
+}
+
+.row {
+    padding: 5px;
+}
+
+div.form-group {
+    border: 1px solid black;
+    /* padding: 20px; */
+    width: 100%;
+}
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='891' height='891' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.92' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+.card {
+    background-color: 
+    #e6f9ff;
+}
