@@ -31,8 +31,6 @@ $(document).ready(function () {
     client.on('message', function (lecture, message) {
       $('#tableMsg tbody').prepend('<tr><td>' + lecture + '</td><td>' + message + '</td><td>' + d.toUTCString() + '</td></tr>')
     })
-
-
     var d = new Date();
     var pubTopic = $('#topic-input');
     var Payload = $('#payload-input');
@@ -64,10 +62,9 @@ $(document).ready(function () {
     })
 
   })
+  
   $('#disconnect').on('click', function () {
     $('#input').val('Disconnected').css('color', 'red');
     client = '';
-   
   })
-
 })
